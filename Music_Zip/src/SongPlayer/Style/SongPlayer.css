@@ -1,0 +1,146 @@
+.FooterTable{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    scrollbar-width: none;
+}
+.FooterTable::-webkit-scrollbar{
+    display: none;
+    
+}
+.FooterTableReturnSmallSlider{
+    height: 10%;
+}
+.FooterTableReturnSmall{
+    width: 100%;
+    height: 77%;
+}
+.FooterTableIcon{
+    width: 5%;
+    min-width: 12px;
+}
+.FooterTableIconAlbum{
+    width: 6%;
+}
+.FooterTableMusicName{
+    width: 10%;
+}
+.FooterSongDiscription{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: -0.3px;
+    color: #596675;
+}
+.FooterTableSlider{
+    width: 30%;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+.footerHeader{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+letter-spacing: -0.3px;
+
+color: #121B25;
+
+}
+.FooterTableRangeGap{
+    width: 1%;
+}
+.FooterLeftIcon{
+    width: 17px;
+    display: flex;
+    margin: auto;
+}
+.FooterLeftIconNEW{
+    width: 45px;
+    display: block;
+    margin: auto auto;
+}
+.FooterRightIcon{
+    width: 20px;
+    display: block;
+    margin: auto;
+}
+.FooterAlbumIconPlaying{
+    width:65px;
+    height:65px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+
+.FooterAlbumIconNotPlaying{
+    width:65px;
+    height:65px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.FooterTableTime{
+    width: 5%;
+    text-align: center;
+}
+.RangeInput{
+    width: 100%;
+}
+.FooterTablePlayer{
+    width: 63%;
+    background-color: rosybrown;
+}
+.app-container {
+    width: 100%;
+    padding: 10 10px;
+    background-color: #272727;
+  }
+  
+  /*Button*/
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    background-color: saddlebrown;
+  }
+  
+  .btn-play {
+    /* width: 0;
+    height: 0; */
+    width: 5%;
+    background-color: saddlebrown;
+    border-style: solid;
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #ffffff;
+    cursor: pointer;
+  }
+  
+  .btn-stop {
+    height: 40px;
+    width: 5%;
+    border-left: 10px solid rgb(255, 255, 255);
+    border-right: 10px solid rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .control-panel {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .timer {
+    width: 5%;
+    background-color: sandybrown;
+    font-size: 10px;
+    font-weight: 200;
+    color: rgb(196, 196, 196);
+  }
